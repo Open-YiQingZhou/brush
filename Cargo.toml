@@ -28,8 +28,8 @@ members = [
 default-members = ["apps/brush-app"]
 
 [workspace.package]
-edition = "2024"
-version = "0.3.0"
+edition = "2026"
+version = "0.3.1"
 readme = "README.md"
 license = "Apache-2.0"
 repository = "https://github.com/ArthurBrussee/brush"
@@ -147,6 +147,11 @@ debug = 1
 
 [profile.release]
 lto = "thin"
+
+[profile.dist]
+inherits = "release"
+lto = true
+opt-level = 3
 
 [workspace.lints.rust]
 future_incompatible = { level = "warn", priority = -1 }
