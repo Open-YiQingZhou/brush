@@ -63,7 +63,7 @@ checksum = "f1fc76eaeac4c9164506c466d4ffdd8ec9d0c5bf57ee97177c4d8eceb3a0e138"
 dependencies = [
  "cipher 0.5.2",
  "cpubits",
- "cpufeatures 0.3.1",
+ "cpufeatures 0.3.0",
 ]
 
 [[package]]
@@ -842,7 +842,7 @@ dependencies = [
 
 [[package]]
 name = "brush-app"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "android_logger",
  "anyhow",
@@ -888,7 +888,7 @@ dependencies = [
 
 [[package]]
 name = "brush-async"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "futures",
  "js-sys",
@@ -899,7 +899,7 @@ dependencies = [
 
 [[package]]
 name = "brush-bench-test"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "anyhow",
  "brush-async",
@@ -930,7 +930,7 @@ dependencies = [
 
 [[package]]
 name = "brush-c"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "brush-process",
  "tempfile",
@@ -940,7 +940,7 @@ dependencies = [
 
 [[package]]
 name = "brush-cli"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "anyhow",
  "brush-async",
@@ -959,7 +959,7 @@ dependencies = [
 
 [[package]]
 name = "brush-cube"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "burn",
  "burn-cubecl",
@@ -972,7 +972,7 @@ dependencies = [
 
 [[package]]
 name = "brush-dataset"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "brush-async",
  "brush-render",
@@ -1000,7 +1000,7 @@ dependencies = [
 
 [[package]]
 name = "brush-js"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "brush-process",
  "brush-render",
@@ -1023,7 +1023,7 @@ dependencies = [
 
 [[package]]
 name = "brush-loss"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "brush-cube",
  "brush-render",
@@ -1039,7 +1039,7 @@ dependencies = [
 
 [[package]]
 name = "brush-prefix-sum"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "brush-cube",
  "burn",
@@ -1053,7 +1053,7 @@ dependencies = [
 
 [[package]]
 name = "brush-process"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "alphanumeric-sort",
  "anyhow",
@@ -1086,7 +1086,7 @@ dependencies = [
 
 [[package]]
 name = "brush-render"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "assert_approx_eq",
  "brush-cube",
@@ -1110,7 +1110,7 @@ dependencies = [
 
 [[package]]
 name = "brush-render-bwd"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "brush-cube",
  "brush-render",
@@ -1125,7 +1125,7 @@ dependencies = [
 
 [[package]]
 name = "brush-rerun"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "anyhow",
  "brush-dataset",
@@ -1144,7 +1144,7 @@ dependencies = [
 
 [[package]]
 name = "brush-serde"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "async-fn-stream",
  "brush-async",
@@ -1165,7 +1165,7 @@ dependencies = [
 
 [[package]]
 name = "brush-serde-macros"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1174,7 +1174,7 @@ dependencies = [
 
 [[package]]
 name = "brush-sort"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "brush-cube",
  "burn",
@@ -1191,7 +1191,7 @@ dependencies = [
 
 [[package]]
 name = "brush-train"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "anyhow",
  "ball-tree",
@@ -1220,7 +1220,7 @@ dependencies = [
 
 [[package]]
 name = "brush-vfs"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "async_zip",
  "brush-async",
@@ -1754,7 +1754,7 @@ dependencies = [
 
 [[package]]
 name = "calloop-wayland-source"
-version = "0.3.1"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "95a66a987056935f7efce4ab5668920b5d0dac4a7c99991a67395f13702ddd20"
 dependencies = [
@@ -1820,7 +1820,7 @@ dependencies = [
 
 [[package]]
 name = "cast"
-version = "0.3.1"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "37b2a672a2cb129a2e41c10b1224bb368f9f37a2b16b612598138befd7b37eb5"
 
@@ -1875,7 +1875,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6f8d983286843e49675a4b7a2d174efe136dc93a18d69130dd18198a6c167601"
 dependencies = [
  "cfg-if",
- "cpufeatures 0.3.1",
+ "cpufeatures 0.3.0",
  "rand_core 0.10.1",
 ]
 
@@ -2018,7 +2018,7 @@ dependencies = [
 
 [[package]]
 name = "colmap-reader"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "brush-async",
  "glam",
@@ -2316,7 +2316,7 @@ dependencies = [
 
 [[package]]
 name = "cpufeatures"
-version = "0.3.1"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8b2a41393f66f16b0823bb79094d54ac5fbd34ab292ddafb9a0456ac9f87d201"
 dependencies = [
@@ -2786,7 +2786,7 @@ dependencies = [
 
 [[package]]
 name = "cubek"
-version = "0.3.1-pre.1"
+version = "0.3.0-pre.1"
 source = "git+https://github.com/tracel-ai/cubek?rev=9deb872362a0756369a50737389d0051126ba8bc#9deb872362a0756369a50737389d0051126ba8bc"
 dependencies = [
  "cubecl",
@@ -2804,7 +2804,7 @@ dependencies = [
 
 [[package]]
 name = "cubek-attention"
-version = "0.3.1-pre.1"
+version = "0.3.0-pre.1"
 source = "git+https://github.com/tracel-ai/cubek?rev=9deb872362a0756369a50737389d0051126ba8bc#9deb872362a0756369a50737389d0051126ba8bc"
 dependencies = [
  "bytemuck",
@@ -2818,7 +2818,7 @@ dependencies = [
 
 [[package]]
 name = "cubek-convolution"
-version = "0.3.1-pre.1"
+version = "0.3.0-pre.1"
 source = "git+https://github.com/tracel-ai/cubek?rev=9deb872362a0756369a50737389d0051126ba8bc#9deb872362a0756369a50737389d0051126ba8bc"
 dependencies = [
  "bytemuck",
@@ -2834,7 +2834,7 @@ dependencies = [
 
 [[package]]
 name = "cubek-fft"
-version = "0.3.1-pre.1"
+version = "0.3.0-pre.1"
 source = "git+https://github.com/tracel-ai/cubek?rev=9deb872362a0756369a50737389d0051126ba8bc#9deb872362a0756369a50737389d0051126ba8bc"
 dependencies = [
  "cubecl",
@@ -2842,7 +2842,7 @@ dependencies = [
 
 [[package]]
 name = "cubek-interpolate"
-version = "0.3.1-pre.1"
+version = "0.3.0-pre.1"
 source = "git+https://github.com/tracel-ai/cubek?rev=9deb872362a0756369a50737389d0051126ba8bc#9deb872362a0756369a50737389d0051126ba8bc"
 dependencies = [
  "cubecl",
@@ -2854,7 +2854,7 @@ dependencies = [
 
 [[package]]
 name = "cubek-matmul"
-version = "0.3.1-pre.1"
+version = "0.3.0-pre.1"
 source = "git+https://github.com/tracel-ai/cubek?rev=9deb872362a0756369a50737389d0051126ba8bc#9deb872362a0756369a50737389d0051126ba8bc"
 dependencies = [
  "bytemuck",
@@ -2868,7 +2868,7 @@ dependencies = [
 
 [[package]]
 name = "cubek-pool"
-version = "0.3.1-pre.1"
+version = "0.3.0-pre.1"
 source = "git+https://github.com/tracel-ai/cubek?rev=9deb872362a0756369a50737389d0051126ba8bc#9deb872362a0756369a50737389d0051126ba8bc"
 dependencies = [
  "cubecl",
@@ -2878,7 +2878,7 @@ dependencies = [
 
 [[package]]
 name = "cubek-quant"
-version = "0.3.1-pre.1"
+version = "0.3.0-pre.1"
 source = "git+https://github.com/tracel-ai/cubek?rev=9deb872362a0756369a50737389d0051126ba8bc#9deb872362a0756369a50737389d0051126ba8bc"
 dependencies = [
  "cubecl",
@@ -2889,7 +2889,7 @@ dependencies = [
 
 [[package]]
 name = "cubek-random"
-version = "0.3.1-pre.1"
+version = "0.3.0-pre.1"
 source = "git+https://github.com/tracel-ai/cubek?rev=9deb872362a0756369a50737389d0051126ba8bc#9deb872362a0756369a50737389d0051126ba8bc"
 dependencies = [
  "cubecl",
@@ -2902,7 +2902,7 @@ dependencies = [
 
 [[package]]
 name = "cubek-reduce"
-version = "0.3.1-pre.1"
+version = "0.3.0-pre.1"
 source = "git+https://github.com/tracel-ai/cubek?rev=9deb872362a0756369a50737389d0051126ba8bc#9deb872362a0756369a50737389d0051126ba8bc"
 dependencies = [
  "cubecl",
@@ -2915,7 +2915,7 @@ dependencies = [
 
 [[package]]
 name = "cubek-std"
-version = "0.3.1-pre.1"
+version = "0.3.0-pre.1"
 source = "git+https://github.com/tracel-ai/cubek?rev=9deb872362a0756369a50737389d0051126ba8bc#9deb872362a0756369a50737389d0051126ba8bc"
 dependencies = [
  "cubecl",
@@ -2925,7 +2925,7 @@ dependencies = [
 
 [[package]]
 name = "cubek-tile"
-version = "0.3.1-pre.1"
+version = "0.3.0-pre.1"
 source = "git+https://github.com/tracel-ai/cubek?rev=9deb872362a0756369a50737389d0051126ba8bc#9deb872362a0756369a50737389d0051126ba8bc"
 dependencies = [
  "bytemuck",
@@ -3763,7 +3763,7 @@ dependencies = [
 
 [[package]]
 name = "fearless_simd"
-version = "0.3.1"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8fb2907d1f08b2b316b9223ced5b0e89d87028ba8deae9764741dba8ff7f3903"
 dependencies = [
@@ -5379,7 +5379,7 @@ dependencies = [
 
 [[package]]
 name = "lpips"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "brush-cube",
  "burn",
@@ -5392,7 +5392,7 @@ dependencies = [
 
 [[package]]
 name = "lpips-convert"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "burn",
  "burn-store",
@@ -5581,7 +5581,7 @@ dependencies = [
 
 [[package]]
 name = "moddef"
-version = "0.3.1"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4a0b3262dc837d2513fe2ef31ff8461352ef932dcca31ba0c0abe33547cf6b9b"
 
@@ -5597,7 +5597,7 @@ dependencies = [
 
 [[package]]
 name = "mp4ra-rust"
-version = "0.3.1"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fdbc3d3867085d66ac6270482e66f3dd2c5a18451a3dc9ad7269e94844a536b7"
 dependencies = [
@@ -5753,7 +5753,7 @@ dependencies = [
 
 [[package]]
 name = "noop_proc_macro"
-version = "0.3.1"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0676bb32a98c1a483ce53e500a81ad9c3d5b3f7c920c28c24e9cb0980d0b5bc8"
 
@@ -6563,7 +6563,7 @@ dependencies = [
 
 [[package]]
 name = "poll-promise"
-version = "0.3.1"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5f6a58fecbf9da8965bcdb20ce4fd29788d1acee68ddbb64f0ba1b81bccdb7df"
 dependencies = [
@@ -8216,7 +8216,7 @@ dependencies = [
 
 [[package]]
 name = "rrfd"
-version = "0.3.1"
+version = "0.3.0"
 dependencies = [
  "bytes",
  "futures-channel",
@@ -8615,7 +8615,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "aacc4cc499359472b4abe1bf11d0b12e688af9a805fa5e3016f9a386dc2d0214"
 dependencies = [
  "cfg-if",
- "cpufeatures 0.3.1",
+ "cpufeatures 0.3.0",
  "digest 0.11.3",
 ]
 
@@ -8637,7 +8637,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "446ba717509524cb3f22f17ecc096f10f4822d76ab5c0b9822c5f9c284e825f4"
 dependencies = [
  "cfg-if",
- "cpufeatures 0.3.1",
+ "cpufeatures 0.3.0",
  "digest 0.11.3",
 ]
 
@@ -8774,7 +8774,7 @@ checksum = "3457dea1f0eb631b4034d61d4d8c32074caa6cd1ab2d59f2327bd8461e2c0016"
 dependencies = [
  "bitflags 2.13.0",
  "calloop 0.13.0",
- "calloop-wayland-source 0.3.1",
+ "calloop-wayland-source 0.3.0",
  "cursor-icon",
  "libc",
  "log",
@@ -9760,7 +9760,7 @@ checksum = "81e544489bf3d8ef66c953931f56617f423cd4b5494be343d9b9d3dda037b9a3"
 
 [[package]]
 name = "unsynn"
-version = "0.3.1"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "501a7adf1a4bd9951501e5c66621e972ef8874d787628b7f90e64f936ef7ec0a"
 dependencies = [
@@ -9982,7 +9982,7 @@ dependencies = [
 
 [[package]]
 name = "wasip3"
-version = "0.4.0+wasi-0.3.1-rc-2026-01-06"
+version = "0.4.0+wasi-0.3.0-rc-2026-01-06"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5428f8bf88ea5ddc08faddef2ac4a67e390b88186c703ce6dbd955e1c145aca5"
 dependencies = [
@@ -10195,7 +10195,7 @@ dependencies = [
 
 [[package]]
 name = "wayland-csd-frame"
-version = "0.3.1"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "625c5029dbd43d25e6aa9615e88b829a5cad13b2819c4ae129fdbb7c31ab4c7e"
 dependencies = [
